@@ -1,0 +1,23 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# User media must stay local; do not commit footage, photos or audio
+assets/videos/*
+assets/images/*
+assets/audio/*
+
+# Rendered outputs and generated project artifacts
+output/preview/*
+output/final/*
+projects/*/audio/*
+projects/*/captions/*
+projects/*/manifest.json
+projects/*/render.log
